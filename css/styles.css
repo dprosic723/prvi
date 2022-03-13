@@ -1,0 +1,21 @@
+#round:checked ~ #img1{
+  border-radius: 50%;
+}
+#img1{
+  vertical-align: middle;
+}
+body {
+  background-color: #c3ff00;
+}
+h1{
+    color: #6d5a4c;
+}
+
+hr {
+  border-style:dotted;
+  border-width: 0;
+  border-top-width: 6px;
+  border-color: rgb(78, 160, 102);
+  width:10%;
+}
+
