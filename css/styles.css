@@ -1,4 +1,4 @@
-#round:checked ~ #img1{
+#round-radio:checked ~ #img1{
   border-radius: 50%;
 }
 #img1{
@@ -10,7 +10,17 @@ body {
 h1{
     color: #6d5a4c;
 }
+#rectangular{
+  position: absolute;
+  top: 100px;
+  left: 250px;
+}
 
+#round{
+  position: absolute;
+  top:130px;
+  left: 250px;
+}
 hr {
   border-style:dotted;
   border-width: 0;
@@ -19,3 +29,24 @@ hr {
   width:10%;
 }
 
+.red{
+  height: 100px;
+  width: 100px; 
+  background-color:red;
+}
+.yellow{
+  margin: 0px;
+  height: 100px;
+  width: 100px; 
+  background-color: yellow;
+  position:absolute;
+  left: 108px;
+}
+.green{
+  height: 100px;
+  width: 100px; 
+  background-color: green;
+  position:relative;
+  left:200px;
+  top:100px;
+}
